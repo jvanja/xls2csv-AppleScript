@@ -1,7 +1,5 @@
 set workingFolder to (choose folder)
 set workingFolderAsText to (workingFolder as text)
-set theDoc to workingFolderAsText & "test.xls"
-set outPath to workingFolderAsText & "test.csv"
 
 tell application "Finder" to set myFiles to every file of workingFolder
 repeat with aFile in myFiles
